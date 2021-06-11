@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=Blog.css>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+</head>
+
+<body>
+    <div class="intro">
+        <h1 class="logo-header"> <span class="logo">Hoşgeldiniz</span>
+        </h1>
+    </div>
+
+    <header>
+        <h4>Cihan YANTIR - Personal WEBSITE</h4>
+    </header>
+    <script src="Blog.js"></script>
+</body>
+
+</html>
+
+
+
+
+////////////
+
+
+js
+
+let intro = document.querySelector('.intro');
+let logo = document.querySelector('.logo-header');
+let logoSpan = document.querySelectorAll('.logo');
+
+window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+
+        logoSpan.forEach((span, idx) => {
+            setTimeout(() => {
+                span.classList.add('active');
+            }, (idx + 1) * 400)
+        });
+        setTimeout(() => {
+            logoSpan.forEach((span, idx) => {
+                setTimeout(() => {
+                    span.classList.remove('active');
+                    span.classList.add('fade');
+
+                }, (idx + 1) * 10)
+            })
+        }, 2000);
+        setTimeout(() => { intro.style.top = '-100vh'; }, 2300)
+    })
+})
