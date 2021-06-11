@@ -284,3 +284,8 @@ h3 {
         border-color: transparent
     }
 }
+@media screen and (max-width: 900px) {
+    .main{
+        width: 100%;
+    }
+}
