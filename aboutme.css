@@ -288,7 +288,7 @@ h3 {
 }
 @media screen and (max-width: 900px) {
     .main{
-        width: 100%;
+        width: 75%;
        
     }
     .nav__links {margin-left:0px;}
