@@ -36,6 +36,7 @@ header {
 
 .nav__links {
     margin-top: 20px;
+    margin-left: 400px;
    
 }
 
@@ -291,4 +292,5 @@ h3 {
        
     }
     h1{color:blue;}
+    .altbosluk{background-color:blue;
 }
