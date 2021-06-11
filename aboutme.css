@@ -291,6 +291,5 @@ h3 {
         width: 100%;
        
     }
-    h1{color:blue;}
-    .altbosluk{background-color:blue;
+    .nav__links {margin-left:0px;}
 }
