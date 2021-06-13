@@ -315,4 +315,8 @@ a:link {
         position: absolute;
         left: -800px;
     }
+     html,
+    body {
+        overflow-x: hidden;
+    }
 }
