@@ -319,4 +319,7 @@ a:link {
     body {
         overflow-x: hidden;
     }
+    .section {
+        margin-top: 30px;
+    }
 }
