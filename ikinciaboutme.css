@@ -291,4 +291,7 @@ h2 {
     .mainyan {
         margin-left: 10%;
     }
+    .nav__links {
+        margin-left: 40px;
+    }
 }
