@@ -236,7 +236,7 @@ a {
 
 @media screen and (max-width: 900px) {
     .nav__links {
-        margin-left: 5%;
+        margin-left: 40px;
     }
     html,
     body {
